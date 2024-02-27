@@ -1,0 +1,108 @@
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        span {
+            margin: 10px;
+        }
+
+        body {
+            background-color: yellow;
+        }
+
+        .button_div {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .button {
+            width: 100px;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        #Shapes_div {
+            margin-top: 10px;
+        }
+
+        .circle {
+            height: 150px;
+            width: 150px;
+            background-color: #267283;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .square {
+            height: 150px;
+            width: 150px;
+            background-color: #138b4b;
+            display: inline-block;
+
+        }
+
+        hr {
+            height: 1px;
+            background-color: gray;
+            padding: 2px
+        }
+
+        .oval {
+            height: 150px;
+            width: 250px;
+            background-color: rgb(48, 48, 94);
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .trapezoid {
+            border-bottom: 128px solid purple;
+            border-left: 107px solid transparent;
+            border-right: 39px solid transparent;
+            height: 0;
+            width: 255px;
+            display: inline-block;
+        }
+
+        .triangle {
+            border-bottom: 150px solid #ac2020;
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent;
+            height: 0;
+            width: 200px;
+            display: inline-block;
+        }
+
+        .parallelogram {
+            width: 200px;
+            height: 150px;
+            transform: skew(20deg);
+            background: #555;
+            display: inline-block;
+        }
+
+        #star-six {
+            margin-top: 7px;
+            display: inline-block;
+            width: 0;
+            height: 0;
+            border-left: 88px solid transparent;
+            border-right: 83px solid transparent;
+            border-bottom: 119px solid red;
+            position: relative;
+
+        }
+
+        #star-six:after {
+            width: 0;
+            height: 0;
+            border-left: 83px solid transparent;
+            border-right: 83px solid transparent;
+            border-top: 119px solid red;
+            position: absolute;
+            content: "";
+            top: 30px;
+            left: -79px;
+        }
